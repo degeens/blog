@@ -2,3 +2,12 @@ baseURL: https://blog.stijngeens.com
 languageCode: en-us
 title: Blog
 theme: PaperMod
+
+menu:
+  main:
+    - name: Archive
+      pageRef: /archive
+      weight: 10
+    - name: Tags
+      pageRef: /tags
+      weight: 20
